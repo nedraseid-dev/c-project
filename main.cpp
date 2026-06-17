@@ -1,10 +1,15 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
 int main(){
-    int age = 40;
-    if(age >= 30){
-        cout << "you old" << endl;
-    }
-    return 0;
+int score = 100;
+
+if (score >=85){
+    cout << "A" << endl;
+}
+else {
+    cout << "you not good" << endl;
+}
+
+return 0;
 }
     
