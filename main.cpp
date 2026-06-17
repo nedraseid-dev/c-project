@@ -22,7 +22,7 @@ int main(){
 
     }
     return 0;
-}*/
+}
     #include <iostream>
 using namespace std;
 int main() {
@@ -32,4 +32,22 @@ int main() {
         n++;
     }
     return 0;
+} 
+#include <iostream>
+using namespace std;
+int main(){
+    int n = 10;
+    do{
+        cout << n << endl;
+        n++;
+    } while(n <= 20);
+    return 0;
+}*/
+#include <iostream>
+using namespace std;
+int main(){
+for(int n=1 ; n<=5 ; n++){
+    cout << n <<endl;
+}
+return 0;
 }
