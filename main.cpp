@@ -42,7 +42,7 @@ int main(){
         n++;
     } while(n <= 20);
     return 0;
-}*/
+}
 #include <iostream>
 using namespace std;
 int main(){
@@ -51,3 +51,31 @@ for(int n=1 ; n<=5 ; n++){
 }
 return 0;
 }
+#include <iostream>
+using namespace std;
+ 
+int main() { 
+  for ( int n = 1; n <= 10; n++){
+         if (n == 5){
+             continue;
+         }
+     cout << n << "";
+    }
+    cout << endl;
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+ 
+int main() { 
+    int n = 1;
+    start:
+        cout << n << " ";
+        n++;
+        if (n <= 5)
+            goto start;
+ 
+    cout << endl;
+    return 0;
+}*/
