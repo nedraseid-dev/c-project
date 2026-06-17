@@ -1,16 +1,10 @@
 #include <iostream>
-
-using namespace std;
-
-int main() {
-
- int age = 10;
- if(age >= 18)
-  cout << "You are an adult." ;
- else
-  cout << "You are not an adult." ;
-
+using namespace std ;
+int main(){
+    int age = 40;
+    if(age >= 30){
+        cout << "you old" << endl;
+    }
     return 0;
-    
-    
 }
+    
